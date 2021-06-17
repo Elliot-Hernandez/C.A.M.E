@@ -34,7 +34,7 @@ filter="channels:1"
 from pydub import AudioSegment
 from pydub.playback import play
 
-audio1 = AudioSegment.from_file("audio.mp3.wav.no se")
+audio1 = AudioSegment.from_file("audio.mp3.wav")
 audio2 = AudioSegment.from_file("audio")
 audio3 = AudioSegment.from_file("audio") 
 
