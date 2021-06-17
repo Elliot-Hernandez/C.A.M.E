@@ -16,12 +16,12 @@ random.choice(os.listdir(r"/home/elliot/Descargas/freesound-python/S"))
 import freesound
 
 client = freesound.FreesoundClient()
-client.set_token("wl5lr4l6pz4Hiuy41bF2da8HPXJdIwLmG34UX41t","token")
+client.set_token(Key_API,"token")
 
-results = client.text_search(query="dubstep",fields="id,name,previews")
+results = client.text_search(query="hit",fields="id,name,previews")
 
 for sound in results:
-    sound.retrieve_preview(".",sound.name+".mp3")
+    sound.retrieve_preview(".",sound.name+".wav")
     print(sound.name)
     
     
@@ -56,8 +56,6 @@ combined_sounds = sound1 + sound2
 combined_sounds.export(r"/home/elliot/Descargas/NombredelArchivo.wav", format="wav")
 
 
-
--Estética computacional-
 
 
 
