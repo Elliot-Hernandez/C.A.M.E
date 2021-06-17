@@ -158,17 +158,4 @@ def csv_clusters(path_x, path_y, n_clusters=2, markers='s'):
 
 
 
-"""
-
-meter el descriptor centroide espectral y sacarlos en 3D.(x,y,z)
-
-Sacar los centroides de cada cluster y guardar el valor del 
-centroide y probar graficando cada centroide y guardarlo porqué
-de ahí salen los sonidos clasificados (de acuerdo a cada cluster)
-
-hacer 1 con media, 1 con d_std, 1 con spectral centroid
-
-
-"""
-
 
