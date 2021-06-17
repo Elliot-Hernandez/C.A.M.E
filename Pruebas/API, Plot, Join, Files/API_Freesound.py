@@ -8,7 +8,7 @@ Created on Fri Apr 23 20:49:37 2021
 import freesound
 
 client = freesound.FreesoundClient()
-client.set_token("wl5lr4l6pz4Hiuy41bF2da8HPXJdIwLmG34UX41t","token")
+client.set_token(Key_API,"token")
 
 results = client.text_search(query="hit",filter="duration:3",
                              fields="id,name,previews")
